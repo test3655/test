@@ -1,5 +1,6 @@
 #!/bin/sh
-cd /home/test
-git pull
+cd /home/
+git pull origin master
 npm install
+nodemon index.js
 exit
