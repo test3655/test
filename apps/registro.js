@@ -1,8 +1,8 @@
 'use strict';
 
-module.exports = welcome;
+module.exports = registro;
 
-function welcome(req, res) {
+function registro(req, res) {
     let random = {
         "id": Math.floor(100000 + Math.random() * 900000),
         "name": Math.floor(100000 + Math.random() * 900000)+','+Math.floor(100000 + Math.random() * 900000)+','+Math.floor(100000 + Math.random() * 900000),

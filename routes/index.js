@@ -5,12 +5,12 @@ const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 
 // Export
-const test = require('../apps/test');
+const registro = require('../apps/registro');
 
 let router = express.Router();
 
 // Endpoint
-router.get('/test',jsonParser, test);
-router.post('/test',jsonParser, test);
+router.get('/test',jsonParser, registro);
+router.post('/test',jsonParser, registro);
 
 module.exports = router;
