@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /home/test
-git pull origin master
-npm install
-systemctl restart test
+sudo cd /home/test
+sudo git pull origin master
+sudo npm install
+sudo systemctl restart test
